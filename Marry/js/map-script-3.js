@@ -42,7 +42,7 @@
   		var mapOptions = {
     		zoom: 16,		
 			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(35.441921, -97.432528),
+    		center: new google.maps.LatLng(44.1677428, -72.8114782),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
@@ -85,7 +85,7 @@
 		//ADD NEW MARKER WITH LABEL
 		//=======================================================================================
 		var marker1 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.441921, -97.432528),
+       		position: new google.maps.LatLng(44.1677428, -72.8114782),
        		draggable: false,
        		raiseOnDrag: false,
        		icon: ' ',
@@ -95,60 +95,60 @@
        		labelClass: "labels" // the CSS class for the label
      	});
 		
-		var marker2 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.440033, -97.437056),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="gift-marker" class="de-icon circle medium-size" style="background-color:#fc9e9e;"><i class="de-icon-gift"></i></div>',
-       		labelAnchor: new google.maps.Point(27, 27),
-       		labelClass: "labels" // the CSS class for the label
-     	});
-		
-		var marker3 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.441899, -97.439043),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="bus-marker" class="de-icon circle medium-size" style="background-color:#e9c24c;"><i class="de-icon-bus"></i></div>',
-       		labelAnchor: new google.maps.Point(27, 27),
-       		labelClass: "labels" // the CSS class for the label
-     	});
-		
-		var marker4 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.443866, -97.437573),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="food-marker" class="de-icon circle medium-size" style="background-color:#bfd730;"><i class="de-icon-tree"></i></div>',
-       		labelAnchor: new google.maps.Point(27, 27),
-       		labelClass: "labels" // the CSS class for the label
-     	});
-		
-		var marker5 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.443835, -97.428649),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="train-marker" class="de-icon circle medium-size" style="background-color:#8fcbda;"><i class="de-icon-subway"></i></div>',
-       		labelAnchor: new google.maps.Point(27, 27),
-       		labelClass: "labels" // the CSS class for the label
-     	});
-		
-		var marker6 = new MarkerWithLabel({
-       		position: new google.maps.LatLng(35.439997, -97.427630),
-       		draggable: false,
-       		raiseOnDrag: false,
-       		icon: ' ',
-       		map: map, 
-         	labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#797ee6;"><i class="de-icon-airport"></i></div>',
-       		labelAnchor: new google.maps.Point(27, 27),
-       		labelClass: "labels" // the CSS class for the label
-     	});
+//		var marker2 = new MarkerWithLabel({
+//       		position: new google.maps.LatLng(35.440033, -97.437056),
+//       		draggable: false,
+//       		raiseOnDrag: false,
+//       		icon: ' ',
+//       		map: map, 
+//         	labelContent: '<div id="gift-marker" class="de-icon circle medium-size" style="background-color:#fc9e9e;"><i class="de-icon-gift"></i></div>',
+//       		labelAnchor: new google.maps.Point(27, 27),
+//       		labelClass: "labels" // the CSS class for the label
+//     	});
+//		
+//		var marker3 = new MarkerWithLabel({
+//       		position: new google.maps.LatLng(35.441899, -97.439043),
+//       		draggable: false,
+//       		raiseOnDrag: false,
+//       		icon: ' ',
+//       		map: map, 
+//         	labelContent: '<div id="bus-marker" class="de-icon circle medium-size" style="background-color:#e9c24c;"><i class="de-icon-bus"></i></div>',
+//       		labelAnchor: new google.maps.Point(27, 27),
+//       		labelClass: "labels" // the CSS class for the label
+//     	});
+//		
+//		var marker4 = new MarkerWithLabel({
+//       		position: new google.maps.LatLng(35.443866, -97.437573),
+//       		draggable: false,
+//       		raiseOnDrag: false,
+//       		icon: ' ',
+//       		map: map, 
+//         	labelContent: '<div id="food-marker" class="de-icon circle medium-size" style="background-color:#bfd730;"><i class="de-icon-tree"></i></div>',
+//       		labelAnchor: new google.maps.Point(27, 27),
+//       		labelClass: "labels" // the CSS class for the label
+//     	});
+//		
+//		var marker5 = new MarkerWithLabel({
+//       		position: new google.maps.LatLng(35.443835, -97.428649),
+//       		draggable: false,
+//       		raiseOnDrag: false,
+//       		icon: ' ',
+//       		map: map, 
+//         	labelContent: '<div id="train-marker" class="de-icon circle medium-size" style="background-color:#8fcbda;"><i class="de-icon-subway"></i></div>',
+//       		labelAnchor: new google.maps.Point(27, 27),
+//       		labelClass: "labels" // the CSS class for the label
+//     	});
+//		
+//		var marker6 = new MarkerWithLabel({
+//       		position: new google.maps.LatLng(35.439997, -97.427630),
+//       		draggable: false,
+//       		raiseOnDrag: false,
+//       		icon: ' ',
+//       		map: map, 
+//         	labelContent: '<div id="airport-marker" class="de-icon circle medium-size" style="background-color:#797ee6;"><i class="de-icon-airport"></i></div>',
+//       		labelAnchor: new google.maps.Point(27, 27),
+//       		labelClass: "labels" // the CSS class for the label
+//     	});
 			
   
 		
