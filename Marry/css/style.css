@@ -1096,6 +1096,10 @@ img.rounded{
 	margin-top:90px
 }
 
+#timeline-title{
+    margin-top: 366px;
+}
+
 /* ----------------------------------------------*/
 /* 06.5 Each Slide Overlay					     */
 /* ----------------------------------------------*/
@@ -3759,3 +3763,8 @@ footer .image-divider.fixed-height{
 	 height:400px;
 }
 }
+
+
+
+
+
