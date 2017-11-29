@@ -1699,7 +1699,7 @@ hr.line-divider{
 /* Section Block , Content Block */
 /* Content block used for content without title, will resize to smaller on mobile, example on about him/her */
 .section-block, .content-block{
-	padding:90px 0;
+	padding:80px 0 20px 0;
 }
 
 .section-block.more-grey,
@@ -2795,7 +2795,7 @@ form .has-error .btn-primary{
 /* 13.2 Adventure Begin							 */
 /* ----------------------------------------------*/
 #adventure-begin-wrapper{
-	margin-bottom:80px
+	margin-top:30px
 }
 
 /* ----------------------------------------------*/

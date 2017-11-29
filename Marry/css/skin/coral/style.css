@@ -341,3 +341,7 @@ form .btn-primary.active,
 .transparent #nav-menu li a.active{
 	color:#ff7f50;
 }
+#adventure-begin {
+    position: relative;
+    margin-bottom: 100px;
+}
