@@ -157,9 +157,8 @@
 		//=======================================================================================
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
-			'<h6>CEREMONY</h6>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>'+
-			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>'+
+			'<h6>CEREMONY & RECEPTION</h6>'+
+			'<div class="info-window-desc">The Inn At The Round Barn Farm: 1661 E Warren Rd, Waitsfield, VT 05673</div>'+
       	'</div>';
 		
 		var marker1_infowindow = new google.maps.InfoWindow({
