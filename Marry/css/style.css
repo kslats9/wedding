@@ -278,7 +278,7 @@ p.lead{
 
 a{
 	text-decoration:none;
-	color:#f98d8a;
+	color:forestgreen;
 }
 
 a.grey-link{
@@ -291,7 +291,7 @@ a.with-underline{
 
 a:hover{
 	text-decoration:none;
-	color:#f98d8a;
+	color:lightpink;
 }
 
 .clearboth{
