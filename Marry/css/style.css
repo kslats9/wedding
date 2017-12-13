@@ -2991,6 +2991,11 @@ footer .image-divider.fixed-height{
 	margin-bottom:40px;
 }
 
+.accom-quali{
+    font-weight: bold;
+    color: #800020;
+}
+
 
 /*===============================================*/
 /* 16. ONEPAGE SECTION							 */
@@ -3763,7 +3768,6 @@ footer .image-divider.fixed-height{
 	 height:400px;
 }
 }
-
 
 
 
