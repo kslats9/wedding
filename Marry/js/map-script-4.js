@@ -42,7 +42,7 @@
   		var mapOptions = {
     		zoom: 16,		
 			mapTypeId: google.maps.MapTypeId.ROADMAP,	
-    		center: new google.maps.LatLng(35.443871, -97.432542),
+    		center: new google.maps.LatLng(44.1677428, -72.8114782),
 			panControl: true,
   			zoomControl: true,
   			mapTypeControl: true,
@@ -145,7 +145,6 @@
 		var contentString1 = ''+
 		'<div class="info-window-wrapper">'+
 			'<h6>CEREMONY</h6>'+
-			'<div class="info-window-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada aliquam nunc.</div>'+
 			'<div class="info-window-link"><a href="#" class="grey-link with-underline">Click Here</a></div>'+
       	'</div>';
 		
