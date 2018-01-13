@@ -2851,6 +2851,21 @@ footer .image-divider.fixed-height{
 	margin-bottom:10px;
 }
 
+.background-change {
+    background-position:center 80%;
+}
+
+@media (min-width: 900px) {
+    .background-change {
+        background-image: url(../images/rooftop.jpg); 
+    }
+}
+
+@media (min-width: 50px) and (max-width: 899px) {
+    .background-change {
+        background-image: url(../images/gallery/CaveHouse.JPG); 
+    }
+}
 
 /*===============================================*/
 /* 15. OTHER PAGES								 */
