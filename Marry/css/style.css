@@ -2893,6 +2893,22 @@ footer .image-divider.fixed-height{
 	margin-bottom:30px
 }
 
+.timeline-footer {
+    height: 1200px;
+}
+
+@media (min-width: 900px) {
+    .timeline-footer {
+        background-image:url(../images/BowBridge.JPG);
+    }
+}
+
+@media (min-width: 50px) and (max-width: 899px) {
+    .timeline-footer {
+        background-image: url(../images/gallery/ChicagoArchitectureCruise.jpg)
+    }
+}
+
 
 /* ----------------------------------------------*/
 /* 15.3 Location				 			 	 */
