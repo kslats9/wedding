@@ -2996,6 +2996,7 @@ footer .image-divider.fixed-height{
 /* 15.5 Gift Registry			 			 	 */
 /* ----------------------------------------------*/
 .gift-card{
+    height: 250px;
 	width:100%; 
 	background-color:#FFF; 
 	text-align:center; 
@@ -3005,7 +3006,11 @@ footer .image-divider.fixed-height{
 
 .gift-desc{
 	margin-top:10px;
-	margin-bottom:20px;
+	margin-bottom:16px;
+}
+
+.gift-logo img {
+    height: 90px;
 }
 
 /* ----------------------------------------------*/
